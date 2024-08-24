@@ -1,0 +1,226 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins, Sans-serif';
+}
+body
+{
+    overflow-x: hidden;
+    background: pink;    
+}
+.head-1
+{
+    height: 70px;
+    width: 100%;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+}
+.side-bar
+{
+    position: absolute;
+    width: 17%;
+    height: 100vh;
+    background: salmon;
+    overflow-x: hidden;
+    box-shadow: black;
+    z-index: 1;
+}
+.side-bar ul li
+{
+    width: 100%;
+    list-style-type: none;
+}
+.side-bar ul li:hover
+{
+    background: white;
+}
+.side-bar-1 li a
+{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    height: 60px;
+    text-align: center;
+}
+.side-bar-1 li
+{
+    line-height: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+}
+.side-bar-1 li:hover
+{
+    opacity: 0.90;
+    transform: scale(0.90);
+}
+.side-bar ul li a i
+{
+    min-width: 60px;
+    font-size: 25px;
+    text-align: center;
+}
+.side-bar-2 li a
+{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.side-bar .title
+{
+    padding: 0 10px;
+    font-size: 19px;
+}
+.lastside-1
+{
+    position: absolute;
+    bottom: 2%;
+}
+.container-1
+{   
+    position: relative; 
+    height: 22vh;
+    left: 20%;
+    margin-top: 2%;
+}
+.container-1
+{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+.container-1 div:hover
+{
+    opacity: 0.90;
+    transform: scale(0.90);
+    border-radius: 10px;
+}
+.card
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card p
+{ 
+    font-weight: lighter;
+}
+.card button
+{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: orangered;
+    border: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.card i
+{
+    font-size: 25px;
+}
+main h1
+{
+    position: relative; 
+    left: 20%;
+    margin-top: 4%;
+}
+.courses h1
+{
+    position: relative;
+    left: 20%;
+}
+.course-1
+{
+    position: relative;
+    left: 23%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    border: 2px white;
+    width: 77%;
+    height: 40vh;
+    background: skyblue;
+
+}
+.first-set, .second-set, .third-set
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    border: 1px solid black;
+    height: 250px;
+    width: 320px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.first-set div:hover
+{
+    opacity: 0.90;
+    transform: scale(0.90);
+}
+.second-set div:hover
+{
+    opacity: 0.90;
+    transform: scale(0.90);
+}
+.third-set div:hover
+{
+    opacity: 0.90;
+    transform: scale(0.90);
+    
+}
+.content-1
+{   
+    position: relative;
+    left: 0;
+    margin-bottom: 60px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.content-2
+{   
+    position: relative;
+    left: 0;
+    margin-bottom: 60px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.content-3
+{   
+    position: relative;
+    left: 0;
+    margin-bottom: 50px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.content-1 button, .content-2 button, .content-3 button
+{
+    margin-top: 55px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: orangered;
+    border: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
